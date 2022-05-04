@@ -1,0 +1,100 @@
+* {
+  font-size: 28px;
+  color:white;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.calculator {
+  width: 350px;
+  height: 500px;
+  border: 3px solid rgb(35,31,41);
+  border-radius: 12px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 1px solid red;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.calculatordisplay--bare {
+  padding-right: 10px;
+  height: 100px;
+  line-height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(91,89,91);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px; 
+}
+
+.number-button {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  flex: 3;
+  justify-content: space-around;
+}
+
+.operator {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.line {
+  display: flex;
+  flex: 1;
+}
+
+input {
+  flex-grow: 1;
+}
+
+.crossline {
+  display: flex;
+  flex: 1;
+}
+
+#zero{
+  flex:2 1 0;
+}
+
+#dot{
+  flex: 1 1 0;
+}
+
+.operator-color{
+  background-color: rgb(248, 159, 12);
+  font-size: 40px;
+
+}
+
+.number-color{
+  background-color: rgb(131,130,131);
+}
+
+.AC-color{
+  background-color: rgb(107,105,107);
+}
+
+#zero-border{
+  border-bottom-left-radius: 8px;
+}
+
+#handle-border{
+  border-bottom-right-radius: 8px;
+}
